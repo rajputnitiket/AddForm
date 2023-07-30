@@ -1,0 +1,109 @@
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+        margin-top: 10px;
+}
+
+.container {
+    height: 90%;
+    overflow-y: scroll;
+    width: 40%;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.33);
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.formContainer {
+    width: 100%;
+}
+
+.addressLabel {
+    display: block;
+}
+
+.addressContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+input, select {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    height: 40px;
+    width: 80%;
+}
+
+.locationContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.locationItem {
+    display: flex;
+    flex-direction: column;
+}
+
+.locationItem > input {
+    height: 40px;
+}
+.locationItem > select {
+    height: 40px;
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(31, 31, 68);
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+label {
+    font-size: 18px;
+}
+
+.itemContainer {
+   
+    
+    margin-bottom: 20px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    width: 100%;
+
+}
+
+.editBtn {
+    height: 40px;
+    width: 100px;
+    outline: none;
+    border-color:rgb(31, 31, 68);
+    color: rgb(31, 31, 68);
+    background-color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.heading {
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.title {
+    font-weight: 500;
+}
